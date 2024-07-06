@@ -21,14 +21,11 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "About",
-        "name"=> "SMK Islam Ruhama",
-        "email"=> "smkislamruhama@uhamka.ac.id",
-        "image"=> "image1.jpg"
+        "title" => "About"
     ]);
 });
 Route::get('/blog', function () {
     return view('posts',[
-        "title" => "Blog"
+        "title" => "Contacts"
     ]);
 });
